@@ -1,41 +1,15 @@
 // for styleguide
 .colorbox{ display: inline-block; margin:10px; width: 100px; height: 100px;}
-.colorbox.color-red{ background-color: $color-red }
-.colorbox.color-cream{ background-color: $color-cream }
-.colorbox.color-darkest-gray{ background-color: $color-darkest-gray }
-.colorbox.color-dark-gray{ background-color: $color-dark-gray }
-.colorbox.color-gray{ background-color: $color-gray }
-.banner-text{ 
-    font-family: $font-bold; 
-    font-size:4.33rem; 
-    margin-bottom: 0.30em;
-    @media(max-width: 480px){
-        font-size: 1.84rem;
-    }
-}
-h1{ font-family: $font-medium }
-h2{ font-family: $font-medium }
-h3{ font-family: $font-medium }
-h4{ font-family: $font-semi-bold }
-h5{ font-family: $font-medium }
-h6{ font-family: $font-medium }
+.colorbox.color-darkgreen{ background-color: $color-darkgreen }
+.colorbox.color-green{ background-color: $color-green }
 
-button{ 
-    display: inline-block; 
-    font-family: $font-medium; 
-    width:180px; 
-    text-transform: uppercase; 
-    font-size: 0.86rem; 
-    text-align: center; 
-    border-radius: 4px; 
-    border:none; 
-    padding: 13.5px 10px; 
-    background-color: $color-red; 
-    color:#ffffff;
+button{
     cursor: pointer;
-    &.btn-secondary{
-        background-color: #ffffff;
-        color: $color-red;
-        border: 1px solid $color-red;
+    &.button--primary{
+        background-color: $color-darkgreen;
+        color:#ffffff;
+        border:none;
+        border-radius: 25px;
+        padding:12px 25px;
     }
 }
